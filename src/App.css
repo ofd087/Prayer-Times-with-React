@@ -1,0 +1,93 @@
+html {
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: black;
+  background-color: white;
+}
+
+body {
+  font-family: Alexandria;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: white !important;
+}
+
+.MuiSvgIcon-root {
+  color: white !important;
+}
+
+@media (max-width: 991px) {
+  .header-grid {
+    text-align: center;
+  }
+
+  .header-h1 {
+    font-size: 42px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .header-h2 {
+    font-size: 20px;
+  }
+}
+
+/* CUSTOM FONTS */
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-Thin.ttf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-ExtraLight.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Alexandria;
+  src: url(./assets/fonts/Alexandria-Black.ttf);
+  font-weight: 900;
+}
+/*== CUSTOM FONTS ==*/
